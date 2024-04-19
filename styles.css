@@ -16,8 +16,8 @@ body{
 }
 
 .icon {
-  width: calc(200px / 3);
-  height: calc(200px / 3);
+  width: calc(175px / 3);
+  height: calc(190px / 3);
   background-image: url(icons/colorful-pack-fun-animal-faces_23-2147658264.jpg);
   background-size: 200px;
 }
@@ -69,7 +69,7 @@ input {
 }
 
 .icon1 {
-  background-position: -5px -10px;
+  background-position: -12px -10px;
 }
 
 .search-username {
@@ -215,6 +215,12 @@ input {
   padding: 1rem 2rem 1rem 1rem;
   height: 150px;
   align-content: space-between;
+  box-shadow: 1px 2px 4px 0px rgba(97, 97, 104, 0.2);
+  transition: 0.5s;
+}
+
+.project-element:hover {
+  transform: translate(-4px, -4px);
 }
 
 .project-text > p.project-element-title {
@@ -239,16 +245,31 @@ input {
   width: 1.3rem;
 }
 
+.project-icons:hover {
+  fill: #3f3f46;
+}
+
 .announcements-content {
   background-color: white;
   border-radius: 0.4rem;
-  width: 11rem;
-  padding: 1rem 1.8rem;
+  box-shadow: 1px 2px 4px 0px rgba(97, 97, 104, 0.2);
 }
 
 .announcement-element {
   display: grid;
-  padding: 0.8rem 0rem;
+  padding: 1rem;
+}
+
+.announcement-element:nth-child(1):hover {
+  background-color: #e4e4e7;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+.announcement-element:nth-child(2):hover {
+  background-color: #e4e4e7;
+}
+.announcement-element:nth-child(3):hover {
+  background-color: #e4e4e7;
+  border-radius: 0 0 0.4rem 0.4rem;
 }
 
 .announcement-element > p.announcement-element-title {
@@ -257,6 +278,7 @@ input {
   color:black;
 }
 .announcement-element > p {
+  width: 11rem;
   font-size: 0.6rem;
   color:#71717a;
 }
@@ -268,4 +290,50 @@ input {
 
 .trending-area {
   grid-column: 2 / 3;
+}
+
+.trending-content {
+  background-color: white;
+  border-radius: 0.4rem;
+  box-shadow: 1px 4px 4px 0px rgba(97, 97, 104, 0.2);
+  border-radius: 0.4rem;
+}
+
+.trending-element {
+  display:grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: start;
+  padding: 0.2rem 1rem;
+}
+
+.trending-element:hover {
+  background-color: #e4e4e7;
+  border-radius: 0.4rem;
+}
+
+.trending-text {
+  font-size: 0.75rem;
+}
+
+.trending-text .description {
+  color: #71717a;
+}
+
+.trending-element > .icon {
+  border-radius: 2rem;
+}
+
+.icon2 {
+  background-position: 70px -6px;
+}
+.icon3 {
+  background-position: -73px -65px;
+}
+.icon4 {
+  background-position: -71px -125px;
+}
+.icon5 {
+  background-position: -13px -125px;
 }
