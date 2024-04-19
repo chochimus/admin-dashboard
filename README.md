@@ -8,7 +8,7 @@ I created this going through the [Odin Project's](https://www.theodinproject.com
 
 ### See it in action!
 
-There is a github page for this simply click the link! (not designed for mobile)
+There is a github page for this simply click [this link!](https://chochimus.github.io/admin-dashboard/) (not designed for mobile)
 
 ### Contributing
 
